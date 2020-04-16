@@ -1,0 +1,198 @@
+.header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features {
+    border: black;
+    border-width: 10px;
+}
+
+.logo1 {
+    display: none;
+    width: "60px";
+    padding-top: 80px;
+    float: right;
+}
+
+.test1 {
+    color: #fff;
+    font-size: small;
+}
+
+.test2 {
+    display: none;
+    color: #fff;
+    font-size: small;
+}
+
+.test3 {
+    margin-top: 575px;
+}
+
+.test4 {
+    color: red;
+    margin-bottom: 25px;
+    font-size: small;
+}
+
+.test5 {
+    display: none;
+    color: red;
+    margin-bottom: 25px;
+    font-size: small;
+}
+
+.test6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: small;
+}
+
+.test7 {
+    color: #fff;
+    font-size: small;
+}
+
+.test8 {
+    color: #fff;
+    font-size: small;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.test9 {
+    display: none;
+    color: white;
+}
+
+.test10 {
+    display: none;
+    color: white;
+}
+
+.test11 {
+    display: none;
+}
+
+.test12 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.btn-outline-secondary1 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: red;
+    color: white;
+    width: 150px;
+}
+
+.btn-outline-secondary2 {
+    display: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.form-control {
+    height: 55px;
+    font-size: 0.8rem;
+    border-radius: 30px;
+}
+
+.input-group {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.logo2 {
+    width: "60px";
+    padding-top: 80px;
+    float: right;
+}
+
+.checked {
+    color: orange;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        text-align: center;
+    }
+    .header {
+        height: auto!important;
+    }
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: -25px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    .test1 {
+        display: none;
+    }
+    .test2 {
+        display: block;
+    }
+    .test3 {
+        margin-top: 150px;
+    }
+    .logo1 {
+        display: block;
+    }
+    h4 {
+        margin-bottom: 20px;
+    }
+    .test4 {
+        display: none;
+    }
+    .test5 {
+        display: block;
+    }
+    .test6 {
+        display: none;
+    }
+    .test7 {
+        display: none;
+    }
+    .test8 {
+        margin-left: 0px;
+    }
+    .test11 {
+        display: block;
+        color: #fff;
+        font-size: small;
+    }
+    .test12 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    .test9 {
+        display: block;
+    }
+    .test10 {
+        display: block;
+    }
+    .btn-outline-secondary1 {
+        width: 100px;
+    }
+     ::placeholder {
+        font-size: small;
+    }
+    .btn-outline-secondary2 {
+        display: block;
+    }
+    .input-group {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
