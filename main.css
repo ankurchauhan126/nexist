@@ -21,7 +21,6 @@
 }
 
 .h {
-    width: 25em;
     padding-top: 4em;
 }
 
@@ -30,11 +29,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 27px;
-    line-height: 1.4em;
-}
-
-.d {
-    width: 40em;
+    line-height: 0.6em;
 }
 
 .hs2 {
@@ -42,13 +37,12 @@
     color: #fff;
     font-weight: 400;
     font-size: 41px;
-    line-height: 1.1em;
+    line-height: 0.2em;
     margin-bottom: 1em;
 }
 
 .d1 {
     display: block;
-    width: 40em;
     box-sizing: border-box;
 }
 
@@ -89,7 +83,6 @@
 }
 
 .d2 {
-    width: 40em;
     box-sizing: border-box;
 }
 
@@ -108,7 +101,6 @@
 }
 
 .input-group {
-    width: 38em;
     border-color: #F25E27;
     border-width: 1em;
     box-sizing: border-box;
@@ -145,7 +137,6 @@
 }
 
 .d4 {
-    width: 38em;
     box-sizing: border-box;
 }
 
@@ -175,7 +166,6 @@
 }
 
 .d6 {
-    width: 36em;
     box-sizing: border-box;
 }
 
